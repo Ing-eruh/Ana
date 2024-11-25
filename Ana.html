@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Website with Images</title>
+    <style>
+        body {
+            font-family: 'courier new', sans-serif;
+            background-color: #ff80aa;
+            color: #330011;
+            margin: 0;
+            padding: 0;
+            background-image: url('flowers.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            color: #4d0000;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        p {
+            font-size: 19px;
+            line-height: 1.666;
+            text-align: center;
+            padding: 0 15px;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .image-gallery img {
+            width: 200px; /* Set image width */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px; /* Optional rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+        }
+    </style>
+</head>
+<body>
+    <h1>Anastasia</h1>
+    <p>
+        To attempt to capture your essence is like trying to bottle the smell you catch on a random Tuesday that makes you feel as you did at age seven at home in your body cloistered in a warm memory,
+        and then mass produce it and feel the same sense of safety as you did in that first moment. The smell that makes you feel grounded and right, the kind you can't quite identify but know deep in your bones defines the most ephemeral glowing childhood memory bathed in a heavy bloom and covered in a fine layer of dust. Nonetheless, I adhere to the demand to try.
+    </p>
+
+    <div class="image-gallery">
+        <img src="lamb.jpg" alt="i">
+        <img src="sleepy.jpg" alt="love">
+        <img src="gae.jpg" alt="You">
+        <img src="slavflowers.jpg" alt="so">
+        <img src="wahhh.jpg" alt="very">
+        <img src="comfort.jpg" alt="much">
+        <img src="huh.jpg" alt="i">
+        <img src="nerodiff.jpg" alt="hope">
+        <img src="beauty.jpg" alt="You">
+        <img src="perfection.jpg" alt="know">
+    </div>
+
+    <p>
+        I hope you like my crow gift :). 
+    </p>
+</body>
+</html>
